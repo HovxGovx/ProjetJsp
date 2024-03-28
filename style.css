@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Appliquer une ombre à la boîte principale du corps */
+body {
+  box-shadow: 0px 0px 20px #bac527; /* Ajustez les valeurs au besoin */
+}
+
+/* Styles pour les images de placeholder */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  /* Styles spécifiques pour les images de placeholder en version large */
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* Style pour une séparation d'exemple */
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/* Style pour une barre verticale d'exemple */
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+/* Styles pour les icônes Bootstrap */
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+/* Styles pour la barre de navigation déroulante */
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Styles pour l'icône du logo avec classe logo-icon */
+.logo-icon {
+  width: 30px;
+  height: auto;
+}
+
+/* Styles pour les éléments span avec une taille de police spécifique */
+span {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Styles pour l'icône du logo avec classe logo */
+.logo {
+  width: 20px;
+  height: auto;
+}
+
+/* Styles pour le bouton d'ajout avec classe boutton-ajout */
+.boutton-ajout {
+  width: 30px;
+  height: auto;
+  float: right;
+}
